@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Bebas+Neue&family=Farro&family=Jost&family=Space+Mono&family=Tauri&display=swap');
+:root{
+    --color1: #3c3c3c;
+    --color2: #f5f5f5;
+    --color3: #ff5a5f;
+    --color4: #f77f00;
+    --color5: #fcbf49;
+    --font1: "Bebas Neue", sans-serif;
+    --font2: "Jost", sans-serif;
+    --font3: "Space Mono", sans-serif;
+    --heading-size: 5vh;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--color1);
+}
+/* navbar */
+.navbar-brand{
+    font-family: var(--font2);
+    color: var(--color2);
+    font-size: var(--heading-size);
+}
+.navbar-brand span{
+    font-family: var(--font1);
+    color: var(--color3);
+    font-weight: 500;
+    font-size: var(--heading-size);
+}
+.nav-link{
+    color: var(--color2);
+    font-family: var(--font3);
+    font-weight: 550;
+    margin-top: 9px;
+}
+.nav-link:hover{
+    color: var(--color4);
+    font-family: var(--font1);
+    font-weight: 500;
+    font-size: 25px;
+    transition: ease;
+    transition-duration: 0.3s;
+}
+/* hero */
+.herosection{
+    height: 45vh;
+}
+.web{
+    padding-left: 10%;
+    padding-top: 15%;
+    justify-content: center;
+    align-items: center;
+}
+.web h1{
+    color: var(--color3);
+    font-family: var(--font1);
+    font-size: 8vh;
+}
+.web h1 span{
+    color: var(--color2);
+}
+.web p{
+    color: var(--color5);
+    font-size: 2.5vh;
+    font-family: var(--font3);
+}
+.imagehere img{
+    margin-top: 95px;
+    width: 50vh;
+    height: 45vh;
+    border-radius: 150px 60px 15px 15px;
+}
+/* about */
+.about{
+    background-color: var(--color2);
+    height: 55vh;
+    padding: 50px;
+}
+.aboutme h1{
+    font-family: var(--font1);
+    color: var(--color3);
+    font-size: var(--heading-size);
+}
+.aboutme p{
+    padding-top: 50px;
+    font-family: var(--font3);
+    color: var(--color1);
+    font-size: 2.5vh;
+    font-weight: 700;
+}
+.aboutme p strong{
+    font-weight: 400;
+    color: var(--color4);
+}
+.name h2{
+    padding-top: 42px;
+    font-weight: 600;
+    color: var(--color1);
+    font-family: var(--font3);
+}
+.name p{
+    padding-top: 20px;
+    font-family: var(--font3);
+    font-weight: 600;
+    color: var(--color3);
+}
+.name p strong{
+    color: var(--color1);
+    font-weight: 600;
+    font-family: var(--font2);
+}
+.shadow-lg{
+    width: 50vh;
+}
+.skills{
+    height: 110vh;
+    color: var(--color2);
+
+}
+.skillcontainer h1{
+    font-family: var(--font1);
+    font-size: var(--heading-size);
+}
+.languagerow h2{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: var(--color3);
+    font-family: var(--font3);
+    font-weight: 700;
+}
+.languagecard{
+    width: 100%;
+    height: 30vh;
+    box-shadow: 0 20px 50px rgb(128, 128, 128);
+    transition: ease 0.3s;
+    transform-style: preserve-3d;
+    transform: rotateY(20deg);
+}
+.languagecard:hover{
+    transform: rotateY(0deg);
+}
+.languagecard img{
+    object-fit: contain;
+    width: 100%;
+    height: 25vh;
+    backface-visibility: hidden;
+}
+.webrow h2{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: var(--color3);
+    font-family: var(--font3);
+    font-weight: 700;
+}
+.projectsection{
+    background-color: var(--color3);
+    padding: 50px;
+    height: 40vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.contactsection{
+    height: 100vh;
+    background-color: var(--color2);
+    padding: 50px;
+}
+.contactcontainer h1{
+    font-family: var(--font1);
+    color: var(--color3);
+    font-size: var(--heading-size);
+}
+.formcolumn{
+    background-color: var(--color1);
+    height: 80vh;
+    padding: 50px;
+    border-radius: 25px;
+}
+.form-label{
+    font-family: var(--font2);
+    color: var(--color2);
+    font-weight: 500;
+}
+.formalcol img{
+    align-items: center;
+    justify-content: center;
+    width: 35vh;
+    height: 35vh;
+    border-radius: 50%;
+}
+.typocol{
+    font-family: var(--font3);
+    text-align: center;
+    color: var(--color3);
+    justify-content: center;
+    padding-top: 100px;
+}
+.inforow .card{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--color1);
+    width: 60vh;
+    height: 30vh;
+    margin-top: 50px;
+}
+.mecard p{
+    font-family: var(--font2);
+    color: var(--color5);
+}
+.mecard h4{
+    color: var(--color2);
+    font-size: var(--heading-size);
+}
+.mecard h4 span{
+    color: var(--color3);
+}
+.lastnav .nav-link{
+    font-size: 4vh;
+    padding-top: 0;
+}
+/* laptop */
+@media (max-width: 1024px){
+    .herosection{
+        height: 52vh;
+    }
+    .name h2{
+        padding-top: 10px;
+    }
+    .name p{
+        padding-top: 5px;
+        font-family: var(--font3);
+        font-weight: 600;
+        color: var(--color3);
+        font-size: 2vh;
+    }
+    .shadow-lg{
+        width: 50vh;
+    }
+    .skills{
+        height: max-content;
+        color: var(--color2);
+    }
+    .formcolumn{
+        background-color: var(--color1);
+        height: max-content;
+        padding: 50px;
+        border-radius: 25px;
+    }
+    .typocol{
+        font-family: var(--font3);
+        text-align: center;
+        color: var(--color3);
+        justify-content: center;
+        padding-top: 50px;
+        font-size: 2vh;
+    }
+    .inforow .card{
+        width: 60vh;
+        height: 35vh;
+    }
+    .mecard p{
+        font-size: 2vh;
+    }
+    .mecard h4{
+        padding-top: 0;
+    }
+}
+/* tablet */
+@media (max-width: 768px){
+    .about{
+        height: max-content;
+        padding: 50px;
+    }
+    .aboutme p{
+        padding-top: 5px;
+    }
+    .hatdogrow{
+        display: none;
+    }
+}
